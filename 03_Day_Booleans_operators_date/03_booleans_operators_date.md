@@ -113,6 +113,8 @@ An equal sign in JavaScript is an assignment operator. It uses to assign a varia
 ```js
 let firstName = 'Asabeneh'
 let country = 'Finland'
+let countryke = 'Kenya'
+let secondName = 'Matengo'
 ```
 
 Assignment Operators
@@ -208,13 +210,14 @@ console.log(NaN == NaN)         // false, not equal
 console.log(NaN === NaN)        // false
 console.log(typeof NaN)         // number
 
-console.log('mango'.length == 'avocado'.length)  // false
-console.log('mango'.length != 'avocado'.length)  // true
-console.log('mango'.length < 'avocado'.length)   // true
-console.log('milk'.length == 'meat'.length)      // true
-console.log('milk'.length != 'meat'.length)      // false
-console.log('tomato'.length == 'potato'.length)  // true
+console.log('mango'.length == 'avocado'.length)  // false // 5, 7 
+console.log('mango'.length != 'avocado'.length)  // true // 5, 7
+console.log('mango'.length < 'avocado'.length)   // true // 5, 7
+console.log('milk'.length == 'meat'.length)      // true // 4, 4
+console.log('milk'.length != 'meat'.length)      // false // 4, 4
+console.log('tomato'.length == 'potato'.length)  // true // 6, 6
 console.log('python'.length > 'dragon'.length)   // false
+console.log('JavaScript'.length < 'php'.length)  // false 10, 5
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
